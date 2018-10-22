@@ -8,6 +8,6 @@ class Shop(models.Model):
     title = models.CharField('标题', max_length=255, db_index=True)
 
     class Meta:
-        db_table = 'shop'
+        db_table = 'shop00'
         verbose_name = '商品'
         verbose_name_plural = verbose_name
